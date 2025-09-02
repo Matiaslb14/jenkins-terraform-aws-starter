@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  options { timestamps(); ansiColor('xterm'); disableConcurrentBuilds() }
+  options { timestamps(); disableConcurrentBuilds() }
   parameters {
     choice(name:'ACTION', choices:['PLAN','APPLY','DESTROY'], description:'Acción Terraform')
     string(name:'AWS_REGION', defaultValue:'us-east-1', description:'Región AWS')
