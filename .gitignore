@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Plan/artefactos
+*.tfplan
+infra/tfplan
+infra/tfplan.txt
+infra/outputs.txt
+infra/outputs.json
+
+# Claves / sensibles
+*.pem
+*.key
+*.csv
