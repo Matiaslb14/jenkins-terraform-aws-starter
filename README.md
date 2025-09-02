@@ -37,8 +37,7 @@ To destroy the infrastructure:
 - Track A: Remote Jenkins + webhooks (GitHub -> Jenkins)
 - Track B: Multi-env (dev/prod), variables/TF vars, tests
 
-
-![Green Jenkins build](docs/jenkins.png)
-![Nginx It Works](docs/nginx.png)
+![Green Jenkins build](docs/Jenkins.png)
+![Nginx It Works](docs/Nginx.png)
 
 
