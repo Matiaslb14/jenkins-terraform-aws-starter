@@ -38,7 +38,7 @@ To destroy the infrastructure:
 - Track B: Multi-env (dev/prod), variables/TF vars, tests
 
 
-![Green Jenkins build](docs/images/jenkins.png)
-![Nginx It Works](docs/images/nginx.png)
+![Green Jenkins build](docs/jenkins.png)
+![Nginx It Works](docs/nginx.png)
 
 
